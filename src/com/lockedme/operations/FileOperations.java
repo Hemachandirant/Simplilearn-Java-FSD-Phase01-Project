@@ -159,7 +159,7 @@ public class FileOperations {
 		case 1:{ listFiles(); }
 		try {
 		Scanner sc1 = new Scanner(System.in);
-		System.out.println("\n1->Return to Locker\n->Exit");
+		System.out.println("\n1->Return to Locker\n2->Exit");
 		System.out.print("Enter your Choice : ");
 		int op = sc1.nextInt();
 		switch(op) {
